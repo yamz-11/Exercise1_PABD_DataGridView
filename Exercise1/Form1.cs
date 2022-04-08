@@ -25,6 +25,14 @@ namespace Exercise1
             //membuat tulisan header tabel bold (tebal)
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.ColumnHeadersDefaultCellStyle.Font, FontStyle.Bold);
 
+            //membuat warna saat kursor diarahkan pada kolom data
+            this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
+            this.dataGridView1.Columns[0].DefaultCellStyle.SelectionBackColor = Color.Salmon;
+            this.dataGridView1.Columns[1].DefaultCellStyle.SelectionBackColor = Color.Orange;
+            this.dataGridView1.Columns[2].DefaultCellStyle.SelectionBackColor = Color.Green;
+            this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.Blue;
+            this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.DarkRed;
+
 
         }
 
