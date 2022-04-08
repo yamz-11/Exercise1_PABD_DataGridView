@@ -33,6 +33,17 @@ namespace Exercise1
             this.dataGridView1.Columns[3].DefaultCellStyle.SelectionBackColor = Color.Blue;
             this.dataGridView1.Columns[4].DefaultCellStyle.SelectionBackColor = Color.DarkRed;
 
+            //Merubah Warna data dalam Kolom
+            this.dataGridView1.Columns[0].DefaultCellStyle.ForeColor = Color.Purple;
+            this.dataGridView1.Columns[1].DefaultCellStyle.ForeColor = Color.Blue;
+            this.dataGridView1.Columns[2].DefaultCellStyle.ForeColor = Color.CadetBlue;
+            this.dataGridView1.Columns[3].DefaultCellStyle.ForeColor = Color.Green;
+            this.dataGridView1.Columns[4].DefaultCellStyle.ForeColor = Color.Maroon;
+            this.dataGridView1.BackgroundColor = Color.Black;
+
+            this.dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridView1.Columns[3].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
 
         }
 
